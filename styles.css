@@ -46,7 +46,6 @@ a {
 .content img {
     height: 84.6vh;
     flex: 1;
-    overflow: auto;
 }
 
 .footer {
