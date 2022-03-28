@@ -6,7 +6,7 @@ body {
 
 .header {
     padding: 10px 40px;
-    font-size: 24px;
+    font-size: 1vw;
     font-weight: 900;
     background-color: #2ea3f2;
     color: whitesmoke;
@@ -19,11 +19,11 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 2vw;
 }
 
 a {
-    padding: 10px;
+    padding: 1vw;
     text-decoration: none;
     color: white;
     border: 2px solid lightcyan;
@@ -31,9 +31,9 @@ a {
 }
 
 .header img {
+    width: 12vw;
+    height: auto;
     border-radius: 8px;
-    max-height: 64px;
-    width: auto;
 }
 
 .content {
