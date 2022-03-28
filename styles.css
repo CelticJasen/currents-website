@@ -38,27 +38,15 @@ a {
 
 .content {
     flex: 1;
-    padding: 10px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .content img {
-    height: 82.5vh;
-    animation-duration: 5s;
-    animation-name: img-grow;
+    height: 84.6vh;
     flex: 1;
     overflow: auto;
-}
-
-@keyframes img-grow {
-    from {
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1);
-    }
 }
 
 .footer {
