@@ -55,7 +55,8 @@ a {
 }
 
 .center-images img {
-    width: 55vw;
+    width: 55.3vw;
+    margin-bottom: -0.4vh;
 }
 
 .right-images {
