@@ -61,3 +61,11 @@ ul {
     align-items: center;
     justify-self: flex-end;
 }
+
+input{
+    width: 25vw;
+}
+
+textarea{
+    width: 25vw;
+}
