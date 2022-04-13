@@ -3,9 +3,12 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-image: url(images/bg.jpg);
+    background-repeat: repeat-x;
 }
 
 .mainContainer {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,7 +18,7 @@ body {
     padding: 10px 40px;
     font-size: 1vw;
     font-weight: 900;
-    background-color: #2ea3f2;
+    background-color: #052a42;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -29,59 +32,29 @@ ul {
     gap: 2vw;
 }
 
-a {
-    padding: 1vw;
-    text-decoration: none;
-    color: white;
-    border: 0.2vw solid lightcyan;
-    border-radius: 1vw;
-}
-
 .header img {
     width: 12vw;
     height: auto;
     border-radius: 8px;
 }
 
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .content {
     display: flex;
-}
-
-.left-images {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 35vh;
-    flex: 1;
-}
-
-.left-images img {
-    width: 10vw;
-    padding-right: 2.5vw;
-}
-
-.center-images img {
-    width: 55.3vw;
-    margin-bottom: -0.4vh;
-}
-
-.right-images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 35vh;
-    flex: 1;
-}
-
-.right-images img {
-    width: 10vw;
-    padding-left: 2.5vw;
+    background-color: whitesmoke;
+    width: 50vw;
+    padding: 50px 0;
 }
 
 .footer {
-    background-color: #2ea3f2;
+    background-color: #052a42;
     color: whitesmoke;
     display: flex;
     justify-content: center;
