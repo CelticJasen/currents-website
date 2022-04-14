@@ -17,22 +17,41 @@
         </div>
         <div class="contentContainer">
             <div class="content">
+                <div class="welcomeMessage">
+                    <div class="messageContent">
+                        <strong>Welcome to Current Inc. High Speed Internet.</strong><br><br>
+
+                        We are transitiong to Fiber to the home in Oregon and Howell Counties.
+                        Please fill out this form if you would like to be on the list for getting the fastest
+                        
+                        internet in the world delivered to your door.<br><br>
+                        
+                        The direction we travel with fiber will be directly related to interest in the area,
+                        have your neighbors and friends fill out this form to be on the list.
+                    </div>
+                </div>
                 <form method="post" action="internetcustomerform.php">
-
-                    Name:<br>
-                    <input type="text" size="19vw" name="ContactName"><br><br>
-
-                    Street:<br>
-                    <input type="text" size="19vw" name="Street"><br><br>
-                    City:<br>
-                    <input type="text" size="19vw" name="City"><br><br>
-                    State:<br>
-                    <input type="text" size="19vw" name="State"><br><br>
-                    Zipcode:<br>
-                    <input type="text" size="19vw" name="Zipcode"><br><br>
+                    <div class="formContainer">
+                        <div class="left">
+                            Name:<br>
+                            <input type="text" name="ContactName"><br><br>
+                            Street:<br>
+                            <input type="text" name="Street"><br><br>
+                            State:<br>
+                            <input type="text" name="State"><br><br>
+                        </div>
+                        <div class="right">
+                            Phone Number:<br>
+                            <input type="text" name="PhoneNumber"><br><br>
+                            City:<br>
+                            <input type="text" name="City"><br><br>
+                            Zipcode:<br>
+                            <input type="text" name="Zipcode"><br><br>
+                        </div>
+                    </div>
                     Message:<br>
                     <textarea type="textarea" rows="4" cols="50" name="Message"></textarea><br><br>
-                    <input type="submit">
+                    <input type="submit" id="submitButton">
                 </form>
             </div>
         </div>

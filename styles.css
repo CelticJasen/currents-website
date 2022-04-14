@@ -47,7 +47,9 @@ ul {
 
 .content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: whitesmoke;
     width: 50vw;
     padding: 50px 0;
@@ -68,4 +70,165 @@ input{
 
 textarea{
     width: 25vw;
+}
+
+.welcomeMessage{
+    display: flex;
+    width: 25vw;
+    margin-bottom: 8vh;
+}
+
+.messageContent{
+    text-align: center;
+    font-size: 3vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer{
+    display: flex;
+    width: 25vw;
+
+}
+
+.left{
+    width: 40%;
+    margin-right: 20%;
+}
+
+.right{
+    width: 40%;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#submitButton{
+    width: 20%;
+    height: 50px;
+    align-self: center;
+}
+
+@media (max-width: 800px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-image: url(images/bg.jpg);
+        background-repeat: repeat-x;
+    }
+    
+    .mainContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .header {
+        padding: 5px 20px;
+        font-size: 12px;
+        font-weight: 900;
+        background-color: #052a42;
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+    }
+    
+    .header img {
+        width: 18vw;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .contentContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 100vw;
+        padding: 50px 0;
+    }
+    
+    .footer {
+        background-color: #052a42;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: flex-end;
+    }
+    
+    input{
+        width: 25vw;
+    }
+    
+    textarea{
+        width: 70vw;
+    }
+    
+    .welcomeMessage{
+        display: flex;
+        width: 100vw;
+        margin-bottom: 8vh;
+    }
+    
+    .messageContent{
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    
+    .formContainer{
+        display: flex;
+        width: 70vw;
+    }
+    
+    .left{
+        width: 40%;
+        margin-right: 20%;
+    }
+    
+    .right{
+        width: 40%;
+    }
+    
+    input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #submitButton{
+        width: 40%;
+        height: 50px;
+        align-self: center;
+        font-size: 10px;
+    }
 }
